@@ -11,7 +11,7 @@ export const GET: RequestHandler = async () => {
 
 export const POST: RequestHandler = async ({ request }) => {
 	const body: PDFRequestParams = await request.json();
-
+	console.log('chromium', chromium);
 	const { BASE_URL, PATHNAME } = body;
 	try {
 		const pdf = await createPDF({ BASE_URL, PATHNAME });
