@@ -16,7 +16,7 @@
 			"$lib/*": ["src/lib/*"],
 			"$types": ["src/lib/types"],
 			"$types/*": ["src/lib/types/*"],
-			"$utils": ["src/lib/utilitiess"],
+			"$utils": ["src/lib/utilities"],
 			"$utils/*": ["src/lib/utilities/*"]
 		}
 	}

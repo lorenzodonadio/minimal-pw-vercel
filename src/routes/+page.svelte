@@ -33,6 +33,7 @@
 	<title>Home</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
+
 {#if pdf}
 	<a
 		style="display:none;"
@@ -52,6 +53,7 @@
 			<img src="svelte-welcome.png" alt="Welcome" />
 		</picture>
 	</span>
+
 	<button {disabled} on:click={handleClick}>
 		<h1>CLICK ME TO TEST PLAYWIGHT AND DOWNLOAD A PDF OF THIS PAGE</h1>
 	</button>
